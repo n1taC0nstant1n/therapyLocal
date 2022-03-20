@@ -1,0 +1,107 @@
+#servicii-content{
+    padding: 50px 0;
+}
+
+.servicii-content-item-wrapper{
+    margin-bottom: 2em;
+}
+
+.servicii-content-item .servicii-content-item-img-wrapper{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid #c6edeb;
+    width: 50%;
+    margin: auto;
+    transition: all .5s;
+}
+
+.servicii-content-item  .servicii-content-item-img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    transition: all .5s;
+
+}
+
+.servicii-content-item:hover .servicii-content-item-img{
+    transform: scale(1.2) rotate(5deg)
+}
+
+.serv-reflexoterapie{
+    background-image: url('./imagini/pic1.jpg')
+}
+
+.serv-drenaj-limfatic{
+    background-image: url('./imagini/pic2.jpg');
+}
+
+.serv-masaj{
+    background-image: url('./imagini/pic3.jpg');
+}
+
+.serv-terapia-bowen{
+    background-image: url('./imagini/pic4.jpg');
+}
+
+
+.servicii-content-item-img::before{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.servicii-content-item-titlu{
+    text-transform: uppercase;
+    font-size: 1.8em;
+    color: #098e8e;
+    margin-bottom: .5em;
+    font-weight: 600;
+
+}
+
+.servicii-content-item-subtitlu{
+    text-transform: uppercase;
+    font-size: 1.4em;
+    color: #098e8e;
+    margin-bottom: .5em;
+    font-weight: 600;
+
+}
+
+.servicii-content-item-subtitlu-text{
+    font-size: 1.2em;
+    color: #414243;
+    margin-bottom: .2em;
+}
+
+.serv-pret{
+    font-size: 1.6em;
+    color: #414243;
+    font-weight: 600;
+} 
+.servicii-lista,
+.contraindicatii{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.servicii-lista li,
+.contraindicatii li{
+    font-size: 1.2em;
+   
+}
+
+.servicii-lista li i,
+.contraindicatii li i{
+    display: inline-block;
+    width: 1.2em;
+    font-size: 1.2em;
+    color: #098e8e;
+}
+
+.contraindicatii li i{
+    color: #b94141;
+}

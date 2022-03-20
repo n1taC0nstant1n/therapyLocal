@@ -1,0 +1,148 @@
+@media screen and (max-width:991px){
+
+    
+    header .navbar-brand img{
+        width: 80px;
+    }
+
+     header .navbar-expand-lg.navbar{
+        padding: .5em 15px;
+    }
+    
+    .collapse:not(.show){
+        display: inherit;
+    }
+
+    .navbar-collapse{
+        background: rgb(255,255,255);
+        position: fixed;
+        width: 300px;
+        left: 0px;
+        top: 0px;
+        height: 100vh;
+        transform:translateX(-100%);
+        transition: all .5s;
+        visibility: hidden
+    }
+
+    .navbar-collapse.show{
+        transform: translateX(0);
+        visibility: visible;
+    }
+
+    .navbar-nav{
+        height: 100vh;
+        text-align: left;
+        padding: 0 15px;
+
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 1.2em;
+        line-height: 1.2;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::before,
+    .navbar-expand-lg .navbar-nav .nav-link.active::before{
+        left: 0;
+    }
+
+    .close-navbar-wrapper{
+        display: flex;
+    }
+
+    .slider-home-img::before{
+        padding-bottom: 40vh;
+    }
+
+    /* modul servicii */
+    .m-servicii-item-wrapper{
+        margin-bottom: 3em;
+    }
+
+    .m-servicii-item-img-wrapper{
+        width: 70%;
+        margin: auto;
+    }
+
+    /* modul bowen */
+    .m-bowen-item-wrapper{
+        margin-bottom: 3em
+    }
+
+    
+
+}
+
+@media screen and (max-width:767px){
+    .container{
+        max-width: 100%
+    }
+
+
+    /* modul bowen */
+    .footer-utile-wrapper{
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (max-width:575px){
+    .slider-home-img::before {
+        padding-bottom: 30vh;
+
+    }
+
+    #slider-home .owl-nav{
+        display: none;
+    }
+
+    .overlay-slider-home-subtitlu{
+        font-size: 1em;
+    }
+
+    .overlay-titlu-link{
+        font-size: 1.4em;
+    }
+
+    .overlay-slider-home-text{
+        font-size: 1.2em;
+        width: 95%;
+    }
+
+    #slider-home .owl-dots{
+        display: flex;
+        position: relative;
+        bottom: 0;
+        right: 0;
+        justify-content: center;
+        width: 100%;
+        margin-top: -2em;
+    }
+
+    #slider-home .owl-dots .owl-dot{
+        width: 0.8em;
+        height: 0.8em;
+        background: #fff;
+        margin-right: .3em;
+        border-radius: 50%;
+    }
+
+    #slider-home .owl-dots .owl-dot.active{
+        background: #c6edeb;
+    }
+
+
+}
+
+@media screen and (max-width:480px){
+    .col-6{
+        width: 100%;
+    }
+
+    .navbar-collapse.show{
+        width: 100%;
+    }
+
+    .m-servicii-item-img-wrapper{
+        width: 60%;
+    }
+}

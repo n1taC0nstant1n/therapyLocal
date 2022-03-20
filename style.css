@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+
+}
+
+body{
+    font-family: didact-gothic;
+    font-style: normal;
+    font-weight: 400;
+	color: #414243;
+	background-color: #fff;
+	
+}
+/* .clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.page-wrapper-one{
+	margin-top: 2em;
+	margin-right: 2.5em;
+	margin-left: 2.5em;
+	
+}
+
+.page-wrapper-two{
+	max-width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.top-banner{
+	width: 94%;
+	height: 350px;
+	background-image: url("imagini/banner.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-left: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+logo{
+	display: flex;
+	padding-top: 15px;
+	padding-left: 20px;
+
+	}
+
+.top-banner h1{
+    /*color: #22b3aa;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 4em;
+    color: #fff;
+    padding-top: 30px;
+    font-family: boogaloo;
+}
+/* nav ul{
+	display: block;
+	
+}
+nav ul li{
+	flex: 0;
+	margin: 3px;
+	
+	
+}
+
+
+.nav-bar ul{
+	display: block;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 20px;
+
+}
+
+
+nav a{
+    color: #098E8E;
+    text-decoration: none;
+    background-color: #C6EDEB;
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 2px;
+	font-family: "didact-gothic";
+	font-style: normal;
+	font-weight: 400;
+	cursor: pointer;
+	font-size: 2em;
+	
+}
+nav a:hover{
+	background-color: #EFEFEF;
+	color:#fff;
+}
+	
+
+
+
+ h2{
+	color: #12a3a3;
+	font-family: "didact-gothic";
+	font-style: normal;
+	font-weight: 500;
+}  
+
+p{
+	text-align: left;
+}
+.main{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.featured-images{
+	width: 100%;
+	display: block;
+	/* Display Block-Pune elementele unul sub altul*/
+	/*Display inline,flex- Pune  pe aceeasi linie-unul dupa altul*/
+	/* text-align: center;	
+} */
+/* .container-featured{
+    margin-top: 2%;
+}
+#pic1{
+    background-image: url("imagini/pic1.jpg");
+}
+#pic2{
+    background-image: url("imagini/pic2.jpg");
+   		
+}
+#pic3{
+	background-image: url("imagini/pic3.jpg");
+}
+#pic4{
+    background-image: url("imagini/pic4.jpg");
+ 
+}
+
+.featured-img{
+    width: 150px;
+    height: 150px;
+	border-radius: 100%;
+	color: #12a3a3;
+	background-size: cover;
+	border-style: solid;
+	border-width: thick;
+	border-color: #c6edeb;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: left;
+}
+.featured{
+	width: 48%;
+	margin-right: 1%;
+	margin-left: 1%;	
+	float: left;
+
+	
+	
+}
+
+
+#topic-one-img{
+    width: 100%;
+    background-image: url(imagini/blog2.jpg);
+	background-size: cover;
+	height: 300px;
+	
+	
+}
+
+
+#topic-two-img{
+    width: 100%;
+    background-image: url(imagini/blog3.jpg);
+	background-size: cover;
+	height: 300px;
+	
+	
+}
+h3{
+	font-family: "didact-gothic";
+	font-style: normal;
+	text-align: center;
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.footer{
+	width: 100%;
+	background-color: #c6edeb;
+    padding-top: 10px;
+	color: #098e8e;
+	font-family: "didact-gothic";
+	font-style: bold;
+	font-weight:500;  
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	
+}
+
+.footer-obligatorii{
+	display: block;
+    width: 48%;
+	margin-right: 1%;
+	margin-left: 1%;	
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+
+.footer-socializare{
+	display: block;
+    width: 48%;
+	margin-right: 1%;
+	margin-left: 1%;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.footer-wrapper{
+	display: flex;
+}
+
+
+@media screen and (min-width:768px){  */
+	/*Acesta este pentru tableta*/
+	/*
+	nav a{
+		width: 19.5%;
+		float: left;
+		margin: 0.5px;
+	}
+	
+	    nav ul{
+        display: flex;
+    }
+    nav ul li{
+        flex: 1;
+      /*  margin: 5px;*//*Aici face spatierea la nav intre butoane*/
+	/* } */
+	
+
+	
+	/*
+	.container-featured{
+		float: left;
+		width: 48%;
+		margin-left: 1%;
+		margin-right: 1%;
+		display: flex;
+	}
+	
+	.topic-one{
+		width: 80%;
+		margin-top: 20%;
+		margin-left: auto;
+		margin-right: auto;
+			
+	}
+	#topic-two-img{
+		width: 48%;
+		float: left;
+		margin-right: 2%;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.topic-two h3{
+		margin-top: 20px;
+	}
+	
+	.topic-one{
+		margin-top: 20px;
+	}
+	
+	
+                              }
+
+@media screen and (min-width:960px){*/
+	/*Aceasta este varianta Desktop*/
+	
+	/*.container-featured{
+		float: left;
+		width: 48%;
+		margin-left: 1%;
+		margin-right: 1%;
+		
+	}
+	
+	.topic-one, .topic-two{
+		width: 48%;
+		margin-left: 1%;
+		margin-right: 1%;
+		float: left;
+	}
+	#topic-one-img, #topic-two-img{
+		width: 100%;
+	}
+	
+	#topic-two-img{
+		margin-bottom: 0;
+	}
+}
+	      
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+ */
