@@ -1,0 +1,122 @@
+#galerie-content{
+    padding: 50px 0;
+}
+
+.galerie-item-wrapper{
+    margin-bottom: 30px 
+}
+
+.galerie-item-img-wrapper{
+    border: 5px solid rgb(18,163,163);
+    overflow: hidden;
+
+}
+
+
+.galerie-item .galerie-item-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    transition: all .5s;
+}
+
+.galerie-item:hover .galerie-item-img{
+    transform: scale(1.2);
+}
+
+.galerie-item-img::before{
+    padding-bottom: 100%;
+    content: '';
+    display: block;
+}
+
+.galerie1{
+    background-image: url('./imagini/images/a2.jpg');
+}
+
+.galerie2{
+    background-image: url('./imagini/images/a3.jpg');
+}
+
+.galerie3{
+    background-image: url('./imagini/images/a4.jpg');
+}
+
+.galerie4{
+    background-image: url('./imagini/images/a5.jpg');
+}
+
+.galerie5{
+    background-image: url('./imagini/images/a6.jpg');
+}
+
+.galerie6{
+    background-image: url('./imagini/images/a7.jpg');
+}
+
+.galerie7{
+    background-image: url('./imagini/images/a8.jpg');
+}
+
+.galerie8{
+    background-image: url('./imagini/images/a9.jpg');
+}
+
+.galerie9{
+    background-image: url('./imagini/images/a10.jpg');
+}
+
+.galerie-item .overlay-galerie-item-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    right: 50%;
+    content: '';
+    z-index: 2;
+    background: rgba(0,0,0, .5);
+    transition: all .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.galerie-item:hover .overlay-galerie-item-img{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.overlay-galerie-item-img-link{
+    display: block;
+    text-decoration: none;
+}
+
+.galerie-item .overlay-galerie-item-img-link i{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #fff;
+    color: #414243;
+    transform: scale(0);
+    transition: all .5s;
+}
+
+.galerie-item:hover .overlay-galerie-item-img-link i{
+    transform: scale(1);
+    transition: all .5s;
+}
+
+.galerie-item .overlay-galerie-item-img-link i:hover{
+    background: #414243;
+    color: #fff;
+}

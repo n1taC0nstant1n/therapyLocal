@@ -521,6 +521,10 @@ footer{
     background-image: url('./imagini/despre_b.jpg');
 }
 
+.galerie{
+    background-image: url('./imagini/gallery_b.png');
+}
+
 .servicii{
     background-image: url('./imagini/servicii_b.jpg');
 }
