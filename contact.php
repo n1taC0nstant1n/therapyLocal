@@ -70,7 +70,7 @@ $title = ucwords( $info['filename'] );
 													<a class="nav-link" href="./servicii.html">Servicii</a>
 												</li>
 												<li class="nav-item">
-													<a class="nav-link" href="./contact.html">Contact</a>
+													<a class="nav-link" href="./contact.php">Contact</a>
 												</li>
 											</ul>
 										</div>

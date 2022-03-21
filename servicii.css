@@ -26,7 +26,7 @@
 }
 
 .servicii-content-item:hover .servicii-content-item-img{
-    transform: scale(1.2) rotate(5deg)
+    transform: scale(1.2);
 }
 
 .serv-reflexoterapie{
@@ -52,11 +52,56 @@
     padding-bottom: 100%;
 }
 
+.servicii-content-item .overlay-servicii-content-item-img{
+    position:  absolute;
+    z-index:  2;
+    background:rgba(0,0,0,.5);
+    top:  0;
+    left:  0;
+    width:  100%;
+    height: 100%;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+    transform: scale(0);
+    border-radius: 50%;
+}
+
+.servicii-content-item:hover .overlay-servicii-content-item-img{
+    transform: scale(1);
+}
+
+.overlay-servicii-content-item-link{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    color: #414243;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+
+.overlay-servicii-content-item-link:hover{
+    background: #414243;
+    color: #fff;
+}
+
+
+
+.overlay-servicii-content-item-link i{
+    font-size:1.6em;
+}
+
+
 .servicii-content-item-titlu{
     text-transform: uppercase;
     font-size: 1.8em;
     color: #098e8e;
-    margin-bottom: .5em;
+    margin-top: .5em;
     font-weight: 600;
 
 }
@@ -73,14 +118,32 @@
 .servicii-content-item-subtitlu-text{
     font-size: 1.2em;
     color: #414243;
-    margin-bottom: .2em;
+    margin-bottom: 1em;
 }
 
 .serv-pret{
-    font-size: 1.6em;
+    font-size: 1.4em;
     color: #414243;
     font-weight: 600;
+    padding: 10px;
+    background: #c6edeb;
+    border-radius: 50px;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } 
+
+.serv-pret-icon {
+    display: inline-block;
+    margin-right: 0.3em;
+}
+
+.serv-pret-icon i{
+    font-size: 1.6em;
+    color: #fff;
+}
+
 .servicii-lista,
 .contraindicatii{
     list-style: none;

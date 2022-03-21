@@ -78,6 +78,10 @@
         max-width: 100%
     }
 
+    .slider-home-item-wrapper{
+        padding: 0;
+    }
+
 
     /* modul bowen */
     .footer-utile-wrapper{

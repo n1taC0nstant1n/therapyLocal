@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
 
 	<link rel="stylesheet" href="./style2.css">
     <link rel="stylesheet" href="./servicii.css">
@@ -18,6 +19,7 @@
 	<script src="assets/js/jquery.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
 	<script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 	<script src="assets/js/main.js" defer></script>
 	
 	<script src="http://use.edgefonts.net/boogaloo:n4:default;didact-gothic:n4:default.js" type="text/javascript"></script>
@@ -63,7 +65,7 @@
 													<a class="nav-link" href="./servicii.html">Servicii</a>
 												</li>
 												<li class="nav-item">
-													<a class="nav-link" href="./contact.html">Contact</a>
+													<a class="nav-link" href="./contact.php">Contact</a>
 												</li>
 											</ul>
 										</div>
@@ -99,10 +101,16 @@
     <section id="servicii-content">
         <div class="container servicii-content-wrapper">
             <div class="row servicii-content-rand">
-                <div class="col-lg-6 col-md-6 col-12 servicii-content-item-wrapper">
+                <div class="col-lg-6 col-md-12 col-12 servicii-content-item-wrapper">
                     <div class="servicii-content-item">
                         <div class="servicii-content-item-img-wrapper">
-                            <div class="servicii-content-item-img serv-reflexoterapie"></div>
+                            <div class="servicii-content-item-img serv-reflexoterapie">
+                                <div class="overlay-servicii-content-item-img">
+                                    <a href="./imagini/pic1.jpg" class="overlay-servicii-content-item-link" data-fancybox="servicii">
+                                        <i class="fa-solid fa-image"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div class="servicii-content-item-text-wrapper">
                             <div class="servicii-content-item-titlu">
@@ -192,16 +200,27 @@
                                 </li>
                             </ul>
                             <div class="serv-pret">
-                                Pret pentru o sedinta de 60minute-120lei
+                                <span class="serv-pret-icon">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </span>
+                                <span class="serv-pret-text">
+                                    Pret pentru o sedinta de 60minute-120lei
+                                </span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--################################################### serviciu 2 ############################################################-->
-                <div class="col-lg-6 col-md-6 col-12 servicii-content-item-wrapper">
+                <div class="col-lg-6 col-md-12 col-12 servicii-content-item-wrapper">
                     <div class="servicii-content-item">
                         <div class="servicii-content-item-img-wrapper">
-                            <div class="servicii-content-item-img serv-drenaj-limfatic"></div>
+                            <div class="servicii-content-item-img serv-drenaj-limfatic">
+                                <div class="overlay-servicii-content-item-img">
+                                    <a href="./imagini/pic2.jpg" class="overlay-servicii-content-item-link" data-fancybox="servicii">
+                                        <i class="fa-solid fa-image"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div class="servicii-content-item-text-wrapper">
                             <div class="servicii-content-item-titlu">
@@ -304,17 +323,28 @@
                             </ul>
 
                             <div class="serv-pret">
-                                Pret pentru o sedinta de 90minute-180lei
+                                <span class="serv-pret-icon">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </span>
+                                <span class="serv-pret-text">
+                                    Pret pentru o sedinta de 90minute-180lei
+                                </span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--################################################### end of serviciu 2 ############################################################-->
                 <!--######################################################## serviciu 3###############################################################-->
-                <div class="col-lg-6 col-md-6 col-12 servicii-content-item-wrapper">
+                <div class="col-lg-6 col-md-12 col-12 servicii-content-item-wrapper">
                     <div class="servicii-content-item">
                         <div class="servicii-content-item-img-wrapper">
-                            <div class="servicii-content-item-img serv-masaj"></div>
+                            <div class="servicii-content-item-img serv-masaj">
+                                <div class="overlay-servicii-content-item-img">
+                                    <a href="./imagini/pic3.jpg" class="overlay-servicii-content-item-link" data-fancybox="servicii">
+                                        <i class="fa-solid fa-image"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div class="servicii-content-item-text-wrapper">
                             <div class="servicii-content-item-titlu">
@@ -351,8 +381,22 @@
                                 </li>
                             </ul>
                             <div class="serv-pret">
-                                Pret pentru o sedinta 60minute-120lei, Pret pentru o sedinta 90minute-160lei
+                                <span class="serv-pret-icon">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </span>
+                                <span class="serv-pret-text">
+                                    Pret pentru o sedinta 60minute-120lei
+                                </span>
                             </div>
+                            <div class="serv-pret">
+                                <span class="serv-pret-icon">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </span>
+                                <span class="serv-pret-text">
+                                    Pret pentru o sedinta 90minute-160lei
+                                </span>
+                            </div>
+                            
 
                             <div class="servicii-content-item-subtitlu">
                                 Masaj anticelulitic
@@ -372,7 +416,20 @@
                                 Masajul anticelulitic nu este indicat persoanelor cu varice sau celor cu afectiuni dermatologice.
                             </div>
                             <div class="serv-pret">
-                                Pret pentru o sedinta 60minute-120lei, Pret pentru o sedinta 90minute-160lei
+                                <span class="serv-pret-icon">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </span>
+                                <span class="serv-pret-text">
+                                    Pret pentru o sedinta 60minute-120lei,
+                                </span>
+                            </div>
+                            <div class="serv-pret">
+                                <span class="serv-pret-icon">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </span>
+                                <span class="serv-pret-text">
+                                    Pret pentru o sedinta 90minute-160lei,
+                                </span>
                             </div>
                             <div class="servicii-content-item-subtitlu">
                                 Masaj relaxare
@@ -385,7 +442,20 @@
                                 beneficiu este relaxarea, reducerea starii de stres si cresterea capacitatii de gandire calma si creatoare.
                             </div>
                             <div class="serv-pret">
-                                Pret pentru o sedinta 60minute-120lei, Pret pentru o sedinta 90minute-160lei
+                                <span class="serv-pret-icon">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </span>
+                                <span class="serv-pret-text">
+                                    Pret pentru o sedinta 60minute-120lei,
+                                </span>
+                            </div>
+                            <div class="serv-pret">
+                                <span class="serv-pret-icon">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </span>
+                                <span class="serv-pret-text">
+                                    Pret pentru o sedinta 90minute-160lei,
+                                </span>
                             </div>
                             <div class="servicii-content-item-subtitlu">
                                 Masaj cu bete de bambus
@@ -408,17 +478,28 @@
                                 </li>
                             </ol>
                             <div class="serv-pret">
-                                Pret pentru o sedinta 90minute-175lei
+                                <span class="serv-pret-icon">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </span>
+                                <span class="serv-pret-text">
+                                    Pret pentru o sedinta 90minute-175lei,
+                                </span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--######################################################## end of serviciu 3###############################################################-->
                 <!--######################################################## serviciu 4 #################################################################-->
-                <div class="col-lg-6 col-md-6 col-12 servicii-content-item-wrapper">
+                <div class="col-lg-6 col-md-12 col-12 servicii-content-item-wrapper">
                     <div class="servicii-content-item">
                         <div class="servicii-content-item-img-wrapper">
-                            <div class="servicii-content-item-img serv-terapia-bowen"></div>
+                            <div class="servicii-content-item-img serv-terapia-bowen">
+                                <div class="overlay-servicii-content-item-img">
+                                    <a href="./imagini/pic4.jpg" class="overlay-servicii-content-item-link" data-fancybox="servicii">
+                                        <i class="fa-solid fa-image"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div class="servicii-content-item-text-wrapper">
                             <div class="servicii-content-item-titlu">
@@ -515,7 +596,12 @@
                                 </li>
                             </ul>
                             <div class="serv-pret">
-                                Pret pentru o sedinta 60minute-100lei
+                                <span class="serv-pret-icon">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </span>
+                                <span class="serv-pret-text">
+                                    Pret pentru o sedinta 60minute-100lei,
+                                </span>
                             </div>
                         </div>
                     </div>

@@ -7,7 +7,7 @@
 }
 
 .galerie-item-img-wrapper{
-    border: 5px solid rgb(18,163,163);
+    border: 5px solid #c6edeb;
     overflow: hidden;
 
 }
@@ -84,7 +84,6 @@
 
     
 }
-
 .galerie-item:hover .overlay-galerie-item-img{
     top: 0;
     left: 0;

@@ -1,6 +1,5 @@
 #contact-content{
     padding: 50px 0;
-    height: 1000px;
 }
 
 .contact-content-subtitlu{
@@ -37,10 +36,20 @@
 }
 
 #btn-trimite.btn-primary{
-    background:#12a3a3;
-    border-color: #12a3a3;
-    font-size: 1.2em;
+    background: #12a3a3;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0;
+    border: 2px solid #12a3a3;
+    transition: all .5s;
 }
+
+#btn-trimite.btn-primary:hover{
+    background: #fff;
+    color: #414243;
+}
+
 
 .contact-content-text,
 .contact-content-form{
@@ -56,4 +65,10 @@
     display: inline-block;
     width: 1.8rem;
     font-size: 1.4em;
+}
+
+#contactForm .form-control{
+    border-radius: 0;
+    border: 2px solid #12a3a3;
+    line-height: 2;
 }
