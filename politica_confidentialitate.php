@@ -58,19 +58,19 @@ $title = str_replace('_', ' ', ucwords( $info['filename'] ));
 											</div>
 											<ul class="navbar-nav">
 												<li class="nav-item ">
-													<a class="nav-link" href="./index.html">Home</a>
+													<a class="nav-link" href="./index">Home</a>
 												</li>
 												<li class="nav-item">
-													<a class="nav-link" href="./despre.html">Despre</a>
+													<a class="nav-link" href="./despre">Despre</a>
 												</li>
 												<li class="nav-item">
-													<a class="nav-link" href="./galerie.html">Galerie</a>
+													<a class="nav-link" href="./galerie">Galerie</a>
 												</li>
 												<li class="nav-item">
-													<a class="nav-link" href="./servicii.html">Servicii</a>
+													<a class="nav-link" href="./servicii">Servicii</a>
 												</li>
 												<li class="nav-item">
-													<a class="nav-link" href="./contact.html">Contact</a>
+													<a class="nav-link" href="./contact">Contact</a>
 												</li>
 											</ul>
 										</div>

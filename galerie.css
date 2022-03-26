@@ -12,6 +12,17 @@
 
 }
 
+.galerie-item{
+    position: relative;
+    z-index: 1;
+    transition: all .5s;
+}
+
+.galerie-item:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* box-shadow: rgba(18,163,163, 0.25) 0px 50px 100px -20px, rgba(18,163,163, 0.3) 0px 30px 60px -30px; */
+}
+
 
 .galerie-item .galerie-item-img{
     background-position: center;
@@ -92,7 +103,7 @@
 }
 
 .overlay-galerie-item-img-link{
-    display: block;
+    display: block;box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     text-decoration: none;
 }
 

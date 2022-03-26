@@ -46,5 +46,12 @@ $(document).ready(function(){
     $('nav li a').filter(function(){
         return this.href === location.href;
       }).addClass('active');
+    
+    if(this.href === 'despre'){
+        var despreCss = document.createElement('link');
+        despreCss.rel = 'stylesheet';
+        despreCss.href = './assets/css/despre.css';
+        document.head.appendChild(despreCss);
+    }
 
   
