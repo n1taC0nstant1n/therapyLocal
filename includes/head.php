@@ -25,7 +25,5 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
 	<script src="assets/js/bootstrap/bootstrap.min.js"></script>
 	<script src="assets/js/main.js" defer></script>
-	
-	<script src="http://use.edgefonts.net/boogaloo:n4:default;didact-gothic:n4:default.js" type="text/javascript"></script>
-</head>
+	</head>
 <body>
