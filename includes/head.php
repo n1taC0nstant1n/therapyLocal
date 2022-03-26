@@ -3,7 +3,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Pagina</title>
+<?php include('./includes/page_name.php'); ?>
+<title><?php echo $title; ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./style.css">
 	<link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css">
@@ -25,5 +26,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
 	<script src="assets/js/bootstrap/bootstrap.min.js"></script>
 	<script src="assets/js/main.js" defer></script>
-	</head>
+	
+</head>
 <body>
