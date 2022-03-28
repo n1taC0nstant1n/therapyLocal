@@ -10,8 +10,14 @@
     border: 5px solid #c6edeb;
     z-index: 1;
     border-radius: 50%;
+    transition: all .5s
 
 }
+
+.despre-content-img-wrapper .despre-content-img-big:hover{
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+}
+
 .despre-content-img-big .despre-content-img{
     overflow: hidden;
     background-image: url('./imagini/images/a1.jpg');

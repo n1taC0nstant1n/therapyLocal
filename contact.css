@@ -36,13 +36,15 @@
 }
 
 #btn-trimite.btn-primary{
-    background: #12a3a3;
+    background: #414243;
     font-size: 1.4em;
     text-transform: uppercase;
     font-weight: 600;
     border-radius: 0;
-    border: 2px solid #12a3a3;
+    border: 2px solid #414243;
     transition: all .5s;
+    border-radius: 5px;
+    color: #fff;
 }
 
 #btn-trimite.btn-primary:hover{
@@ -57,10 +59,13 @@
 }
 
 .contact-content-text{
-    border: 5px solid #12a3a3;
-    background: rgba(18,163, 163, .3);
+    border: 2px solid #414243;
+    border-radius: 5px;
 }
 
+.contact-content-text iframe{
+    border-radius: 5px;
+}
 .contact-content-icon i{
     display: inline-block;
     width: 1.8rem;
@@ -69,6 +74,52 @@
 
 #contactForm .form-control{
     border-radius: 0;
-    border: 2px solid #12a3a3;
+    border: 2px solid #414243;
     line-height: 2;
+    border-radius: 5px;
+}
+
+.contact-lista-wrapper{
+    padding: 50px 0 0 0;
+}
+
+.contact-lista-item{
+    border: 2px solid #414243;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-direction: column;
+}
+
+.contact-lista-item-icon{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #414243;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.contact-lista-item-icon i{
+    font-size: 30px;
+}
+
+.contact-lista-item-content{
+    text-align: center;
+}
+
+.contact-lista-item-content-titlu{
+    font-weight: 600;
+    font-size: 1.4em;
+    color:#12a3a3;
+}
+
+.contact-lista-item-content-text{
+    font-size: 1.2em;
 }

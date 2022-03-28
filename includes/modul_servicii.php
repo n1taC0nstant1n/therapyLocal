@@ -15,7 +15,9 @@
 					<div class="m-servicii-item card">
 						<div class="m-servicii-item-img-wrapper">
 							<a href="" class="m-servicii-img-link">
-								<div class="m-servicii-item-img reflexoterapie"></div>
+								<div class="m-servicii-item-img reflexoterapie">
+									<div class="overlay-m-servicii-item-img"></div>
+								</div>
 							</a>
 						</div>
 						<div class="m-servicii-item-content">
@@ -37,7 +39,9 @@
 					<div class="m-servicii-item card">
 						<div class="m-servicii-item-img-wrapper">
 							<a href="" class="m-servicii-img-link">
-								<div class="m-servicii-item-img drenaj"></div>
+								<div class="m-servicii-item-img drenaj">
+									<div class="overlay-m-servicii-item-img"></div>
+								</div>
 							</a>
 						</div>
 						<div class="m-servicii-item-content">
@@ -59,7 +63,9 @@
 					<div class="m-servicii-item card">
 						<div class="m-servicii-item-img-wrapper">
 							<a href="" class="m-servicii-img-link">
-								<div class="m-servicii-item-img masaj"></div>
+								<div class="m-servicii-item-img masaj">
+									<div class="overlay-m-servicii-item-img"></div>
+								</div>
 							</a>
 						</div>
 						<div class="m-servicii-item-content">
@@ -81,7 +87,9 @@
 					<div class="m-servicii-item card">
 						<div class="m-servicii-item-img-wrapper">
 							<a href="" class="m-servicii-img-link">
-								<div class="m-servicii-item-img terapia-bowen"></div>
+								<div class="m-servicii-item-img terapia-bowen">
+									<div class="overlay-m-servicii-item-img"></div>
+								</div>
 							</a>
 						</div>
 						<div class="m-servicii-item-content">
