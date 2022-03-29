@@ -3,7 +3,17 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title><?php echo $title; ?></title>
+
+<?php
+	// pathinfo give info about given file and returns it into an associative array:
+$info = ucfirst(pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME));
+
+if($info === 'Index' || $info === '/'){
+	$info = 'Terapie Bowen';
+}
+?>
+
+<title><?php echo $info; ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./style.css">
 	<link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css">

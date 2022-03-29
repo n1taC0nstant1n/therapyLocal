@@ -1,9 +1,9 @@
 $(document).ready(function(){
     $('#slider-home').owlCarousel({
     loop:true,
-    margin:10,
+    // margin:10,
     nav:true,
-    autoplay: false,
+    autoplay: true,
     responsive:{
         0:{
             items:1

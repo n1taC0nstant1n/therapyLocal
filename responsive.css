@@ -50,8 +50,22 @@
         display: flex;
     }
 
-    .slider-home-img::before{
+    .slider-home-img::before,
+    .page-img::before{
         padding-bottom: 40vh;
+    }
+
+    /* contact css */
+    .contact-lista-item-wrapper{
+        margin-bottom: 3rem;
+    }
+
+    #contact-content{
+        padding-top: 0;
+    }
+
+    .contact-content-form-wrapper{
+        margin-top: 3rem;
     }
 
     /* modul servicii */
@@ -74,11 +88,15 @@
 }
 
 @media screen and (max-width:767px){
+    .overlay-page-img-titlu{
+        font-size: 2.2em;
+    }
     .container{
         max-width: 100%
     }
 
-    .slider-home-item-wrapper{
+    .slider-home-item-wrapper,
+    .page-img-wrapper .col-12{
         padding: 0;
     }
 
@@ -90,9 +108,12 @@
 }
 
 @media screen and (max-width:575px){
-    .slider-home-img::before {
+    .overlay-page-img-titlu {
+        font-size: 2em;
+    }
+    .slider-home-img::before,
+    .page-img::before{
         padding-bottom: 30vh;
-
     }
 
     #slider-home .owl-nav{
@@ -138,6 +159,9 @@
 }
 
 @media screen and (max-width:480px){
+    .overlay-page-img-titlu {
+        font-size: 1.8em;
+    }
     .col-6{
         width: 100%;
     }
@@ -148,5 +172,21 @@
 
     .m-servicii-item-img-wrapper{
         width: 60%;
+    }
+
+    .slider-home-img::before, 
+    .page-img::before {
+        padding-bottom: 20vh;
+
+    }
+
+    iframe{
+        height: 250px!important;
+    }
+
+    #btn-trimite.btn-primary{
+        display: block;
+        width: 100%;
+        font-size: 1.2em;
     }
 }

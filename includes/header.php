@@ -6,7 +6,7 @@
 							<nav class="navbar navbar-expand-lg">
 								<div class="col-lg-3 col-md-3 col-4 header-logo-wrapper">
 									<div class="header-logo">
-										<a class="navbar-brand" href="">
+										<a class="navbar-brand" href="./">
 											<img src="imagini/logo.png" width="100px">
 										</a>
 									</div>
@@ -26,7 +26,7 @@
 											</div>
 											<ul class="navbar-nav">
 												<li class="nav-item active">
-													<a class="nav-link" href="./index">Home</a>
+													<a class="nav-link" href="./">Home</a>
 												</li>
 												<li class="nav-item">
 													<a class="nav-link" href="./despre">Despre</a>
