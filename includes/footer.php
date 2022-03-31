@@ -1,3 +1,4 @@
+	<?php $something = 'ceva'; ?>
 	<!-- footer -->
 	<footer>
 		<div class="container">

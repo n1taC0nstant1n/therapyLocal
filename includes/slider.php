@@ -1,3 +1,4 @@
+ <?php $something = 'ceva'; ?>
 <!-- slider -->
 <section id="slider">
 		<div class="container" id="slider-home-wrapper">

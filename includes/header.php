@@ -1,4 +1,5 @@
 <!-- header -->
+<?php $something = 'ceva'; ?>
 <header>
 		<div class="header-logo-menu-wrapper">
 			<div class="container header-logo-meniu">
