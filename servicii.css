@@ -9,7 +9,7 @@
 .servicii-content-item .servicii-content-item-img-wrapper{
     overflow: hidden;
     border-radius: 50%;
-    border: 5px solid #c6edeb;
+    border: 5px solid var(--secondary-color);
     width: 50%;
     margin: auto;
     transition: all .5s;
@@ -22,10 +22,10 @@
 .servicii-content-item  .servicii-content-item-img{
     background-size: cover;
     background-position: center;    font-size: 1.4em;
-    color: #414243;
+    color: var(--text-color);
     font-weight: 600;
     padding: 5px 10px;
-    /* background: #c6edeb; */
+    /* background: var(--secondary-color); */
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -88,7 +88,7 @@
     text-decoration: none;
     width: 50px;
     height: 50px;
-    color: #414243;
+    color: var(--text-color);
     background: #fff;
     border-radius: 50%;
     display: flex;
@@ -98,7 +98,7 @@
 }
 
 .overlay-servicii-content-item-link:hover{
-    background: #414243;
+    background: var(--text-color);
     color: #fff;
 }
 
@@ -112,7 +112,7 @@
 .servicii-content-item-titlu{
     text-transform: uppercase;
     font-size: 1.8em;
-    color: #098e8e;
+    color: var(--primary-color);
     margin-top: .5em;
     font-weight: 600;
 
@@ -121,7 +121,7 @@
 .servicii-content-item-subtitlu{
     text-transform: uppercase;
     font-size: 1.4em;
-    color: #098e8e;
+    color: var(--primary-color);
     margin-bottom: .5em;
     font-weight: 600;
 
@@ -129,13 +129,13 @@
 
 .servicii-content-item-subtitlu-text{
     font-size: 1.2em;
-    color: #414243;
+    color: var(--text-color);
     margin-bottom: 1em;
 }
 
 .serv-pret{
     font-size: 1.4em;
-    color: #414243;
+    color: var(--text-color);
     font-weight: 600;
     border-radius: 50px;
     margin-top: 1em;
@@ -151,7 +151,7 @@
 
 .serv-pret-icon i{
     font-size: 1.6em;
-    color: #098e8e;
+    color: var(--primary-color);
 }
 
 .servicii-lista,
@@ -172,7 +172,7 @@
     display: inline-block;
     width: 1.2em;
     font-size: 1.2em;
-    color: #098e8e;
+    color: var(--primary-color);
 }
 
 .contraindicatii li i{

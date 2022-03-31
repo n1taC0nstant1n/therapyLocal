@@ -6,22 +6,22 @@
 					<div class="footer-utile">
 						<ul class="utile-list">
 							<li class="footer-utile-item">
-								<a href="./politica_confidentialitate.html" class="footer-utile-link">
+								<a href="./politica_confidentialitate" class="footer-utile-link">
 									Politica de confidentialitate
 								</a>
 							</li>
 							<li class="footer-utile-item">
-								<a href="" class="footer-utile-link">
+								<a href="./drepturi_autor" class="footer-utile-link">
 									Drepturi de autor
 								</a>
 							</li>
 							<li class="footer-utile-item">
-								<a href="" class="footer-utile-link">
+								<a href="./copyright" class="footer-utile-link">
 									Copyright
 								</a>
 							</li>
 							<li class="footer-utile-item">
-								<a href="" class="footer-utile-link">
+								<a href="https://anpc.ro/" target="_blank" class="footer-utile-link">
 									ANPC
 								</a>
 							</li>

@@ -57,7 +57,7 @@
             <div class="row rand-contact-content">
                  <div class="col-lg-5 col-md-12 col-12 contact-content-text-wrapper">
                     <div class="contact-content-text">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.3120974061467!2d26.046567115903787!3d44.426759879102335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201d2123b112f%3A0xc8b4f172dc8b1bfb!2sBloc%20E2%2C%20Strada%20Sibiu%203%2C%20Bucure%C8%99ti%20061533!5e0!3m2!1sro!2sro!4v1648464486534!5m2!1sro!2sro" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.3120974061467!2d26.046567115903787!3d44.426759879102335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201d2123b112f%3A0xc8b4f172dc8b1bfb!2sBloc%20E2%2C%20Strada%20Sibiu%203%2C%20Bucure%C8%99ti%20061533!5e0!3m2!1sro!2sro!4v1648464486534!5m2!1sro!2sro" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         <!--<div class="contact-content-subtitlu">
                             Adresa:
                         </div>
@@ -100,12 +100,12 @@
                 </div> 
                 <div class="col-lg-7 col-md-12 col-12 contact-content-form-wrapper">
                     <div class="contact-content-form">
-                        <form method="post" id="contactForm" name="contactForm" class="contactForm">
+                        <form method="post" id="contactForm" name="contactForm" class="contactForm" onsubmit="return validateForm()" action="" novalidate>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <label class="label" for="name">Nume</label>
-                                        <input type="text" class="form-control" name="name" id="name" placeholder="Nume Complet">
+                                        <label class="label" for="fname">Nume</label>
+                                        <input type="text" class="form-control" name="fname" id="fname" placeholder="Nume Complet">
                                     </div>
                                 </div>
                                 <div class="col-md-12"> 
@@ -122,14 +122,16 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <label class="label" for="#">Mesaj</label>
+                                        <label class="label" for="message">Mesaj</label>
                                         <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Scrie mesajul tau aici..."></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
+                                    <div id="message-info"></div>
+                                </div>
+                                <div class="col-md-12">
                                     <div class="form-group">
                                         <input type="submit" value="Trimite mesaj" class="btn btn-primary" id="btn-trimite">
-                                        <div class="submitting"></div>
                                     </div>
                                 </div>
                             </div>

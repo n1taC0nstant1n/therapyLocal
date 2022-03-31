@@ -15,7 +15,7 @@
 
 .contact-content a{
     text-decoration: none;
-    color:#12a3a3;
+    color:var(--primary-color);
     transition: all .5s;
     font-weight: 600;
     font-size: 1.2em;
@@ -36,12 +36,12 @@
 }
 
 #btn-trimite.btn-primary{
-    background: #414243;
+    background: var(--text-color);
     font-size: 1.4em;
     text-transform: uppercase;
     font-weight: 600;
     border-radius: 0;
-    border: 2px solid #414243;
+    border: 2px solid var(--text-color);
     transition: all .5s;
     border-radius: 5px;
     color: #fff;
@@ -49,7 +49,7 @@
 
 #btn-trimite.btn-primary:hover{
     background: #fff;
-    color: #414243;
+    color: var(--text-color);
 }
 
 
@@ -59,7 +59,7 @@
 }
 
 .contact-content-text{
-    border: 2px solid #414243;
+    border: 2px solid var(--text-color);
     border-radius: 5px;
 }
 
@@ -74,7 +74,7 @@
 
 #contactForm .form-control{
     border-radius: 0;
-    border: 2px solid #414243;
+    border: 2px solid var(--text-color);
     line-height: 2;
     border-radius: 5px;
 }
@@ -84,7 +84,7 @@
 }
 
 .contact-lista-item{
-    border: 2px solid #414243;
+    border: 2px solid var(--text-color);
     border-radius: 5px;
     padding: 20px;
     display: flex;
@@ -97,7 +97,7 @@
 .contact-lista-item-icon{
     width: 50px;
     height: 50px;
-    border: 2px solid #414243;
+    border: 2px solid var(--text-color);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -108,6 +108,7 @@
 
 .contact-lista-item-icon i{
     font-size: 30px;
+    color: var(--primary-color);
 }
 
 .contact-lista-item-content{
@@ -117,9 +118,22 @@
 .contact-lista-item-content-titlu{
     font-weight: 600;
     font-size: 1.4em;
-    color:#12a3a3;
+    color:var(--primary-color);
 }
 
 .contact-lista-item-content-text{
     font-size: 1.2em;
+}
+
+#message-info.bg-danger,
+#message-info.bg-success{
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+#btn-trimite:focus{
+    box-shadow: unset;
 }

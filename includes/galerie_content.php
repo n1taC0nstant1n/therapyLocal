@@ -1,13 +1,6 @@
     <!-- galerie content -->
     <section id="galerie-content">
         <div class="container galerie-content-wrapper">
-            <div class="galerie-content-header">
-                <div class="row rand-galerie-header">
-                    <h2 class="page-titlu">
-                        Galerie
-                    </h2>
-                </div>
-            </div>
             <div class="galerie-content-items-wrapper">
                 <div class="row rand-galerie-items">
                     <div class="col-lg-3 col-md-4 col-6 galerie-item-wrapper">

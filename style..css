@@ -3,30 +3,32 @@
 
 }
 
+:root{
+    --primary-color: #12a3a3;
+    --secondary-color: #c6edeb;
+    --text-color: #414243;
+}
+
 body{
     font-family: didact-gothic;
     font-style: normal;
     font-weight: 400;
-	color: #414243;
+	color: var(--text-color);
 	background-color: #fff;
     font-size: 16px;
 	
 }
 
+
+
 ::-webkit-scrollbar {
     width: .5em;
-    background: #414243
+    background: var(--text-color)
   }
-  
-  /* Track */
-  /* ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px #098e8e;
-    border-radius: .2em;
-  } */
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #c6edeb;
+    background: var(--secondary-color);
     border-radius: .5em;
   }
 
@@ -35,7 +37,7 @@ header{
     position: relative;
     width: 100%;
     z-index: 20;
-    background: #c6edeb;
+    background: var(--secondary-color);
     
 }
 .navbar-collapse{
@@ -52,7 +54,7 @@ header{
 }
 
 .navbar-expand-lg .navbar-nav .nav-link{
-    color: #414243;
+    color: var(--text-color);
     text-decoration: none;
     font-size:1.4em;
     position: relative;
@@ -67,7 +69,7 @@ header{
     top: 100%;
     left:0.4em;
     height: 2px;
-    background-color: #414243;
+    background-color: var(--text-color);
     content:'';
     width: 0;
     margin-top: -0.5em;
@@ -210,7 +212,7 @@ header.sticky .navbar-expand-lg.navbar{
     right: 0;
     width: 0;
     height: 5px;
-    background: rgba(18, 163, 163, .5); /*#12a3a3*/
+    background: rgba(18, 163, 163, .5); /*var(--primary-color)*/
     z-index: 500;
     content: '';
     animation-name: loading-slider;
@@ -287,8 +289,8 @@ header.sticky .navbar-expand-lg.navbar{
 
 #slider-home  .owl-prev:hover,
 #slider-home  .owl-next:hover{
-    background: #c6edeb;
-    color:#414243;
+    background: var(--secondary-color);
+    color:var(--text-color);
 }
 
 #slider-home  .owl-prev span,
@@ -312,7 +314,7 @@ header.sticky .navbar-expand-lg.navbar{
     position: relative;
     z-index: 1;
     border-radius: 50%;
-    border: 5px solid #c6edeb;
+    border: 5px solid var(--secondary-color);
     transition: all .5s;
 
 }
@@ -412,12 +414,12 @@ header.sticky .navbar-expand-lg.navbar{
 
 .m-subtitle-link{
     text-decoration: none;
-    color: #12a3a3;
+    color: var(--primary-color);
     transition: all .5s;
 }
 
 .m-subtitle-link:hover{
-    color:#098e8e
+    color:var(--primary-color)
 }
 
 .m-servicii-item-text{
@@ -493,7 +495,7 @@ header.sticky .navbar-expand-lg.navbar{
 /* footer */
 footer{
     padding: 30px 0;
-    background-color: #c6edeb;
+    background-color: var(--secondary-color);
 }
 
 .row.footer-rand{
@@ -517,14 +519,14 @@ footer{
     transition: all.5s;
     position: relative;
     z-index: 1;
-    color: #414243;
+    color: var(--text-color);
     font-weight: 500;
     font-size: 1.2em;
 }
 
 .footer-utile-link:hover{
     letter-spacing: 0.5px;
-    color: #414243;
+    color: var(--text-color);
 
 }
 
@@ -534,13 +536,14 @@ footer{
 
 .footer-contact-link{
     text-decoration: none;
-    color: #098e8e;
+    color: var(--primary-color);
     transition: all .5s;
+    font-weight: 600
 }
 
 .footer-contact-link:hover{
     text-decoration: none;
-    color: #098e8e;
+    color: var(--primary-color);
 }
 
 .contact-item-text{
@@ -632,14 +635,14 @@ footer{
 .page-subtitlu{
     font-size: 1.8em;
     font-weight: 600;
-    color: #098e8e;
+    color: var(--primary-color);
     text-transform: uppercase;
     
 }
 
 .page-paragraph{
     font-size: 1.2em;
-    color: #414243;
+    color: var(--text-color);
     margin-bottom: 1em;
 }
 

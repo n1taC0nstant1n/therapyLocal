@@ -1,340 +1,660 @@
-@charset "utf-8";
-/* CSS Document */
-
 *{
 	margin: 0;
 
+}
+
+:root{
+    --primary-color: #12a3a3;
+    --secondary-color: #c6edeb;
+    --text-color: #414243;
 }
 
 body{
     font-family: didact-gothic;
     font-style: normal;
     font-weight: 400;
-	color: #414243;
+	color: var(--text-color);
 	background-color: #fff;
-	
-}
-/* .clearfix {
-  overflow: auto;
-}
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.page-wrapper-one{
-	margin-top: 2em;
-	margin-right: 2.5em;
-	margin-left: 2.5em;
-	
-}
-
-.page-wrapper-two{
-	max-width: 1300px;
-	margin-left: auto;
-	margin-right: auto;
-	
-}
-
-.top-banner{
-	width: 94%;
-	height: 350px;
-	background-image: url("imagini/banner.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 10px;
-	padding-left: 20px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-logo{
-	display: flex;
-	padding-top: 15px;
-	padding-left: 20px;
-
-	}
-
-.top-banner h1{
-    /*color: #22b3aa;
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
-    font-size: 4em;
-    color: #fff;
-    padding-top: 30px;
-    font-family: boogaloo;
-}
-/* nav ul{
-	display: block;
-	
-}
-nav ul li{
-	flex: 0;
-	margin: 3px;
-	
+    font-size: 16px;
 	
 }
 
 
-.nav-bar ul{
-	display: block;
-    text-align: center;
+
+::-webkit-scrollbar {
+    width: .5em;
+    background: var(--text-color)
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+    border-radius: .5em;
+  }
+
+/* header */
+header{
+    position: relative;
+    width: 100%;
+    z-index: 20;
+    background: var(--secondary-color);
+    
+}
+.navbar-collapse{
+    justify-content: flex-end;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.contact{
+    padding-right: 0;
+}
+
+.navbar-expand-lg.navbar{
+    padding: 1em 15px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: var(--text-color);
     text-decoration: none;
-    list-style-type: none;
-    padding-left: 20px;
+    font-size:1.4em;
+    position: relative;
+    z-index:1;
+}
+.navbar-expand-lg .navbar-nav .nav-link:last-child{
+    padding-right: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link::before{
+    position: absolute;
+    top: 100%;
+    left:0.4em;
+    height: 2px;
+    background-color: var(--text-color);
+    content:'';
+    width: 0;
+    margin-top: -0.5em;
+    transition: all .5s;
 
 }
 
+.navbar-expand-lg .navbar-nav .nav-link:hover::before,
+.navbar-expand-lg .navbar-nav .nav-link.active::before{
+    width: 1em
 
-nav a{
-    color: #098E8E;
-    text-decoration: none;
-    background-color: #C6EDEB;
+}
+.navbar-toggler{
+    border: none;
+    padding: 0;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-toggler-icon i{
+    font-size: 1.4em;
+}
+
+.header-meniu{
+    text-align: right;
+}
+
+.close-navbar-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    background:rgb(18, 163, 163)
+}
+
+.close-navbar{
+    width: 2em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.close-navbar i{
+    font-size:1.5em;
+    cursor: pointer;
     display: block;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    margin-top: 2px;
-	font-family: "didact-gothic";
-	font-style: normal;
-	font-weight: 400;
-	cursor: pointer;
-	font-size: 2em;
-	
-}
-nav a:hover{
-	background-color: #EFEFEF;
-	color:#fff;
-}
-	
-
-
-
- h2{
-	color: #12a3a3;
-	font-family: "didact-gothic";
-	font-style: normal;
-	font-weight: 500;
-}  
-
-p{
-	text-align: left;
-}
-.main{
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-
-}
-.featured-images{
-	width: 100%;
-	display: block;
-	/* Display Block-Pune elementele unul sub altul*/
-	/*Display inline,flex- Pune  pe aceeasi linie-unul dupa altul*/
-	/* text-align: center;	
-} */
-/* .container-featured{
-    margin-top: 2%;
-}
-#pic1{
-    background-image: url("imagini/pic1.jpg");
-}
-#pic2{
-    background-image: url("imagini/pic2.jpg");
-   		
-}
-#pic3{
-	background-image: url("imagini/pic3.jpg");
-}
-#pic4{
-    background-image: url("imagini/pic4.jpg");
- 
+    cursor: pointer;
 }
 
-.featured-img{
-    width: 150px;
-    height: 150px;
-	border-radius: 100%;
-	color: #12a3a3;
-	background-size: cover;
-	border-style: solid;
-	border-width: thick;
-	border-color: #c6edeb;
-	margin-left: auto;
-	margin-right: auto;
-    text-align: left;
-}
-.featured{
-	width: 48%;
-	margin-right: 1%;
-	margin-left: 1%;	
-	float: left;
-
-	
-	
+.close-navbar-wrapper{
+    display: none;
 }
 
 
-#topic-one-img{
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    background-image: url(imagini/blog2.jpg);
-	background-size: cover;
-	height: 300px;
-	
-	
+    z-index: 30;
+    animation-name: sticky-animation;
+    animation-duration: 1s;
 }
 
-
-#topic-two-img{
-    width: 100%;
-    background-image: url(imagini/blog3.jpg);
-	background-size: cover;
-	height: 300px;
-	
-	
-}
-h3{
-	font-family: "didact-gothic";
-	font-style: normal;
-	text-align: center;
-	font-weight: 400;
-	font-size: 25px;
-}
-
-.footer{
-	width: 100%;
-	background-color: #c6edeb;
-    padding-top: 10px;
-	color: #098e8e;
-	font-family: "didact-gothic";
-	font-style: bold;
-	font-weight:500;  
-	text-align: center;
-	margin-top: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	
-}
-
-.footer-obligatorii{
-	display: block;
-    width: 48%;
-	margin-right: 1%;
-	margin-left: 1%;	
-	float: left;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-}
-
-
-.footer-socializare{
-	display: block;
-    width: 48%;
-	margin-right: 1%;
-	margin-left: 1%;
-	text-align: center;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-}
-
-.footer-wrapper{
-	display: flex;
-}
-
-
-@media screen and (min-width:768px){  */
-	/*Acesta este pentru tableta*/
-	/*
-	nav a{
-		width: 19.5%;
-		float: left;
-		margin: 0.5px;
-	}
-	
-	    nav ul{
-        display: flex;
+@keyframes sticky-animation{
+    0%{
+        transform: translateY(-100%)
     }
-    nav ul li{
-        flex: 1;
-      /*  margin: 5px;*//*Aici face spatierea la nav intre butoane*/
-	/* } */
-	
-
-	
-	/*
-	.container-featured{
-		float: left;
-		width: 48%;
-		margin-left: 1%;
-		margin-right: 1%;
-		display: flex;
-	}
-	
-	.topic-one{
-		width: 80%;
-		margin-top: 20%;
-		margin-left: auto;
-		margin-right: auto;
-			
-	}
-	#topic-two-img{
-		width: 48%;
-		float: left;
-		margin-right: 2%;
-		margin-bottom: 20px;
-		margin-top: 20px;
-	}
-	.topic-two h3{
-		margin-top: 20px;
-	}
-	
-	.topic-one{
-		margin-top: 20px;
-	}
-	
-	
-                              }
-
-@media screen and (min-width:960px){*/
-	/*Aceasta este varianta Desktop*/
-	
-	/*.container-featured{
-		float: left;
-		width: 48%;
-		margin-left: 1%;
-		margin-right: 1%;
-		
-	}
-	
-	.topic-one, .topic-two{
-		width: 48%;
-		margin-left: 1%;
-		margin-right: 1%;
-		float: left;
-	}
-	#topic-one-img, #topic-two-img{
-		width: 100%;
-	}
-	
-	#topic-two-img{
-		margin-bottom: 0;
-	}
+    100%{
+        transform: translateY(0);
+    }
 }
-	      
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
- */
+
+header .navbar-brand img{
+    width: 100px;
+}
+
+header.sticky .navbar-brand img{
+    width: 60px;
+}
+
+header.sticky .navbar-expand-lg.navbar{
+    padding: .5em 0;
+}
+
+
+/* slider home */
+.slider-home-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1
+}
+
+.slider-home-img::before{
+    display: block;
+    content: '';
+    padding-bottom: 36%;
+}
+
+.slider1{
+    background-image: url('imagini/banner.jpg');
+}
+
+.slider2{
+    background-image: url('imagini/despre.jpg');
+}
+
+.slider3{
+    background-image: url('imagini/gallery.png');
+}
+
+.slider4{
+    background-image: url('imagini/servicii.jpg');
+}
+
+.overlay-slider-home{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    content: '';
+    background: rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.overlay-slider-home::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 5px;
+    background: rgba(18, 163, 163, .5); /*var(--primary-color)*/
+    z-index: 500;
+    content: '';
+    animation-name: loading-slider;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+    
+}
+
+@keyframes loading-slider{
+    0%{
+        width: 0
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.overlay-slider-home-subtitlu{
+    font-size: 1.2em;
+}
+
+.overlay-titlu-link{
+    font-size: 1.8em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: all .5s;
+}
+
+.overlay-titlu-link:hover{
+    color: #fff;
+    letter-spacing: .1em;
+}
+
+.overlay-slider-home-text{
+    font-size: 1.4em;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#slider-home.owl-carousel{
+    position: relative;
+    z-index: 1;
+} 
+
+#slider-home .owl-nav{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.owl-dots{
+    display: none;
+    
+}
+
+#slider-home  .owl-prev,
+#slider-home  .owl-next{
+    width: 3rem;
+    height: 3rem;
+    background: #fff;
+    font-size: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all .5s;
+
+}
+
+#slider-home  .owl-prev:hover,
+#slider-home  .owl-next:hover{
+    background: var(--secondary-color);
+    color:var(--text-color);
+}
+
+#slider-home  .owl-prev span,
+#slider-home  .owl-next span{
+    display: flex;
+    align-self: stretch;
+    width: 100%;
+    justify-content: center;
+
+}
+
+
+
+/* modul servicii */
+#m-servicii{
+    padding: 50px 0;
+}
+
+.m-servicii-item .m-servicii-item-img-wrapper{
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    border: 5px solid var(--secondary-color);
+    transition: all .5s;
+
+}
+
+.m-servicii-item:hover .m-servicii-item-img-wrapper{
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px
+}
+
+.m-servicii-img-link{
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+
+.m-servicii-item{
+    border: none;
+    border-bottom: 5px solid rgba(198,237,235, .5);
+    height: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.m-servicii-item .m-servicii-item-img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.m-servicii-item:hover .m-servicii-item-img{
+    box-shadow: (50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+}
+
+.m-servicii-item .overlay-m-servicii-item-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    border-radius: 50%;
+    content: '';
+    background: rgba(0,0,0, .5);
+    transition: all .5s;
+}
+
+.m-servicii-item:hover .overlay-m-servicii-item-img{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.m-servicii-item:hover .m-servicii-item-img{
+    transform: scale(1.2) rotate(5deg)
+}
+
+.reflexoterapie{
+    background-image: url('imagini/pic1.jpg')
+}
+.drenaj{
+    background-image: url('imagini/pic2.jpg')
+}
+.masaj{
+    background-image: url('imagini/pic3.jpg')
+}
+.terapia-bowen{
+    background-image: url('imagini/pic4.jpg')
+}
+
+.m-servicii-item-img::before{
+    display: block;
+    padding-bottom: 100%;
+    content: '';
+    overflow: hidden;
+    border-radius: 50%
+}
+
+.m-title{
+    font-size: 2.4em;
+    margin-bottom: 2em;
+    font-weight: 600;
+}
+
+.m-subtitle{
+    font-size: 1.8em;
+    margin-top: 1.5em;
+    font-weight: 600;
+}
+
+.m-subtitle-link{
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: all .5s;
+    text-transform: uppercase;
+}
+
+.m-subtitle-link:hover{
+    color:var(--primary-color)
+}
+
+.m-servicii-item-text{
+    font-size: 1.2em;
+    padding-bottom:10px;
+    position: relative;
+    z-index: 1
+}
+
+.m-servicii-item::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    right: 50%;
+    height: 5px;
+    background: rgb(198,237,235);
+    transition: all .5s;
+}
+
+.m-servicii-item:hover::before{
+    left: 0;
+    right: 0;
+}
+
+/* modul bowen */
+#m-bowen{
+    padding-bottom:50px;
+}
+
+.m-bowen-item{
+    height: 100%;
+
+}
+
+.m-bowen-item .m-bowen-item-img-wrapper{
+    overflow: hidden;
+}
+
+.m-bowen-item .m-bowen-item-img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    transition: all .5s;
+}
+
+.m-bowen-item .m-bowen-item-img::before{
+    display: block;
+    content: '';
+    z-index: 2;
+    padding-bottom: 50%;
+}
+
+.m-bowen-item:hover .m-bowen-item-img{
+    transform: scale(1.2) rotate(5deg)
+}
+
+.m-bowen-item-text{
+    font-size: 1.2em;
+}
+
+.utilitate{
+    background-image: url('imagini/blog2.jpg')
+}
+
+.efecte{
+    background-image: url('imagini/blog3.jpg')
+}
+
+/* footer */
+footer{
+    padding: 30px 0;
+    background-color: var(--secondary-color);
+}
+
+.row.footer-rand{
+    align-items: center;
+}
+
+.footer-contact-list,
+.utile-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.footer-utile-item{
+    line-height: 1.6;
+}
+
+.footer-utile-link{
+    text-decoration: none;
+    transition: all.5s;
+    position: relative;
+    z-index: 1;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.footer-utile-link:hover{
+    letter-spacing: 0.5px;
+    color: var(--text-color);
+
+}
+
+.footer-contact-item{
+    font-size: 1.2em;
+}
+
+.footer-contact-link{
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: all .5s;
+    font-weight: 600
+}
+
+.footer-contact-link:hover{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.contact-item-text{
+    font-weight: 500;
+}
+
+.contact-item-fb a img{
+    transition: all .5s
+}
+
+
+.contact-item-fb a img:hover{
+    filter: grayscale(100%)
+}
+
+/* page-img-wrapper */
+.page-img-wrapper{
+    position: relative;
+    z-index: 1;
+}
+
+.page-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.page-img::before{
+    padding-bottom: 36%;
+    content: '';
+    display: block
+}
+
+.despre{
+    background-image: url('./imagini/despre_b.jpg');
+}
+
+.galerie{
+    background-image: url('./imagini/gallery_b.png');
+}
+
+.servicii{
+    background-image: url('./imagini/servicii_b.jpg');
+}
+
+.contact{
+    background-image: url('./imagini/contact_b.jpg');
+}
+
+.politica-confidentialitate{
+    background-image: url('./imagini/banner.jpg');
+
+}
+
+
+
+.overlay-page-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgba(0,0,0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-page-img-titlu{
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 600;
+}
+/* pagini footer css */
+#politica-wrapper{
+    padding: 50px 0;
+}
+
+.page-titlu{
+    font-size: 2.4em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.page-subtitlu{
+    font-size: 1.8em;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    
+}
+
+.page-paragraph{
+    font-size: 1.2em;
+    color: var(--text-color);
+    margin-bottom: 1em;
+}
+
+.page-paragraph.atentionare{
+    font-weight: 600;
+}
+
+.page-list li,
+ol li{
+    font-size: 1.2em
+}
+
+
+

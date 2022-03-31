@@ -59,6 +59,10 @@
         padding-bottom: 40vh;
     }
 
+    .m-title{
+        margin-bottom: 1.4em;
+    }
+
     /* contact css */
     .contact-lista-item-wrapper{
         margin-bottom: 3rem;
@@ -87,11 +91,33 @@
         margin-bottom: 3em
     }
 
+    #m-bowen{
+        padding-bottom: 0;
+    }
+
+     /* contact */
+     iframe{
+        height: 250px!important;
+    }
+
+    /* servicii */
+    .servicii-content-item .servicii-content-item-img-wrapper{
+        width: 70%;
+    }
+
+    /* galerie */
+    #galerie-content{
+        padding-bottom: 20px;
+    }
+
     
 
 }
 
 @media screen and (max-width:767px){
+    .m-title{
+        margin-bottom: 1.2em;
+    }
     .overlay-page-img-titlu{
         font-size: 2.2em;
     }
@@ -114,6 +140,10 @@
     .footer-utile-wrapper{
         margin-bottom: 1em;
     }
+
+
+
+   
 }
 
 @media screen and (max-width:575px){
@@ -164,12 +194,24 @@
         background: #c6edeb;
     }
 
+    .page-subtitlu,
+    .m-subtitle{
+        font-size: 1.4em;
+    }
+
 
 }
 
 @media screen and (max-width:480px){
+    .m-title{
+        margin-bottom: 1em;
+    }
     .overlay-page-img-titlu {
         font-size: 1.8em;
+    }
+
+    .overlay-slider-home-text{
+        font-size: 1em;
     }
     .col-6{
         width: 100%;
@@ -189,6 +231,10 @@
 
     }
 
+    .page-img.politica-confidentialitate{
+        text-align: center;
+    }
+
     iframe{
         height: 250px!important;
     }
@@ -198,4 +244,6 @@
         width: 100%;
         font-size: 1.2em;
     }
+
+
 }

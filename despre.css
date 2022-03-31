@@ -7,7 +7,7 @@
 .despre-content-img-wrapper .despre-content-img-big{
     overflow: hidden;
     position: relative;
-    border: 5px solid #c6edeb;
+    border: 5px solid var(--secondary-color);
     z-index: 1;
     border-radius: 50%;
     transition: all .5s
@@ -70,13 +70,13 @@
     align-items: center;
     text-decoration: none;
     font-size: 1.6em;
-    color: #414243;
+    color: var(--text-color);
     transition: all .5s;
 }
 
 .overlay-despre-content-img-link:hover{
     color:#fff;
-    background: #414243;
+    background: var(--text-color);
 }
 /* 
 .despre-content-img-wrapper .despre-content-img::after{
@@ -106,7 +106,7 @@
 
 .despre-content-titlu{
     font-size: 3em;
-    color: #414243;
+    color: var(--text-color);
     font-weight: 600;
     text-transform: capitalize;
 }
@@ -116,7 +116,7 @@
 }
 
 .despre-content-subtitlu{
-    color: #098e8e;
+    color: var(--primary-color);
     font-weight: 600;
     font-size: 1.4em;
     margin-bottom: 3em;
