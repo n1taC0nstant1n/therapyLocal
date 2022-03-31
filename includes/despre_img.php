@@ -1,3 +1,4 @@
+<?php  $something = 'ceva'; ?>
 <section class="page-img-wrapper">
         <div class="container">
             <div class="row">

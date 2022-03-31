@@ -1,3 +1,5 @@
+<?php  $something = 'ceva'; ?>
+
     <!-- galerie content -->
     <section id="galerie-content">
         <div class="container galerie-content-wrapper">

@@ -1,3 +1,4 @@
+<?php  $something = 'ceva'; ?>
 
 	<!-- modul bowen -->
 	<section id="m-bowen">

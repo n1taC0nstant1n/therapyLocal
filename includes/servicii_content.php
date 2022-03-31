@@ -1,3 +1,4 @@
+<?php  $something = 'ceva'; ?>
     <!-- servicii content -->
     <section id="servicii-content">
         <div class="container servicii-content-wrapper">

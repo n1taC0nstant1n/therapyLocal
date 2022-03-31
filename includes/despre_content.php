@@ -1,3 +1,5 @@
+<?php  $something = 'ceva'; ?>
+
  <!-- despre content -->
  <section id="despre-content">
         <div class="container despre-content-wrapper">

@@ -1,3 +1,5 @@
+<?php  $something = 'ceva'; ?>
+
 	<!-- modul servicii -->
 	<section id="m-servicii">
 		<div class="container m-servicii">
