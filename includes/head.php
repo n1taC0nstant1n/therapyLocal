@@ -45,8 +45,8 @@ if($info === 'Index' || $info === '/'){
 	<?php if($info == 'Galerie' || $info == 'Servicii'){ ?>
 	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 	<?php } ?>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
-	<script src="assets/js/bootstrap/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel-min.js" ></script>
+	<script src="assets/js/bootstrap/bootstrap-min.js"></script>
 	<script src="assets/js/main.js" defer></script>
 	<?php if($info == 'Contact'){ ?>
 	<script src="assets/js/validate.js" defer></script>
