@@ -1,3 +1,4 @@
+    <?php  $something = 'ceva'; ?>
     <!-- contact lista -->
     <section class="contact-lista-wrapper">
         <div class="container contact-lista">
