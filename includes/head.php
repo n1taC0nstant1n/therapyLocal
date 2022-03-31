@@ -16,7 +16,7 @@ if($info === 'Index' || $info === '/'){
 <title><?php echo $info; ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/css/bootstrap/bootstrap-min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+	<link rel="stylesheet" href="./assets/css/owl.carousel-min.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
@@ -45,7 +45,7 @@ if($info === 'Index' || $info === '/'){
 	<?php if($info == 'Galerie' || $info == 'Servicii'){ ?>
 	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 	<?php } ?>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+	<script src="assets/js/owl-carousel/owl.carousel-min.js" ></script>
 	<script src="assets/js/bootstrap/bootstrap-min.js"></script>
 	<script src="assets/js/main.js" defer></script>
 	<?php if($info == 'Contact'){ ?>
