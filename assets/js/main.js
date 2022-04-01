@@ -25,6 +25,19 @@ $(document).ready(function(){
         $('.contraindicatii li').prepend('<i class="fa-solid fa-circle-xmark"></i>')
     }
 
+    /*arata sublista meniu desktop*/ 
+    if($(window).width()>991){
+        $(".nav-item.dropdown").hover(function (event) {
+             event.preventDefault();
+            $(this).find(".dropdown-menu").toggleClass('arata-sublista');
+        });
+    } else {
+        $('.nav-link.dropdown-toggle').click(function (event) {
+            event.preventDefault();
+            $(this).parent().find(".dropdown-menu").slideToggle();
+        });
+    }
+
 
     });
 

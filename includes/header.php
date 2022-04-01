@@ -32,11 +32,51 @@
 												<li class="nav-item">
 													<a class="nav-link" href="./despre">Despre</a>
 												</li>
-												<li class="nav-item">
-													<a class="nav-link" href="./galerie">Galerie</a>
+												
+												<!-- <li class="nav-item">
+													<a class="nav-link" href="./servicii">Servicii</a>
+												</li> -->
+												<li class="nav-item dropdown">
+													<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														Servicii
+													</a>
+													<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+													<a class="dropdown-item" href="./includes/reflexoterapie">
+														<span class="dropdown-item-icon">
+															<i class="fa-solid fa-circle-dot"></i>
+														</span>	
+														<span class="dropdown-item-text">
+															Reflexoterapie
+														</span>
+													</a>
+													<a class="dropdown-item" href="./includes/drenaj">
+														<span class="dropdown-item-icon">
+															<i class="fa-solid fa-circle-dot"></i>
+														</span>
+														<span class="dropdown-item-text">
+															Drenaj Limfatic
+														</span>
+													</a>
+													<a class="dropdown-item" href="./includes/masaj">
+														<span class="dropdown-item-icon">
+															<i class="fa-solid fa-circle-dot"></i>
+														</span>
+														<span class="dropdown-item-text">
+															Masaj
+														</span>
+													</a>
+													<a class="dropdown-item" href="./includes/terapia_bowen">
+														<span class="dropdown-item-icon">
+															<i class="fa-solid fa-circle-dot"></i>
+														</span>
+														<span class="dropdown-item-text">
+															Terapia Bowen
+														</span>
+													</a>
+													</div>
 												</li>
 												<li class="nav-item">
-													<a class="nav-link" href="./servicii">Servicii</a>
+													<a class="nav-link" href="./galerie">Galerie</a>
 												</li>
 												<li class="nav-item">
 													<a class="nav-link" href="./contact">Contact</a>

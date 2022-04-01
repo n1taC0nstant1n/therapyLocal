@@ -111,7 +111,7 @@
 
 .servicii-content-item-titlu{
     text-transform: uppercase;
-    font-size: 1.8em;
+    font-size: 1.4em;
     color: var(--primary-color);
     margin-top: .5em;
     font-weight: 600;
@@ -120,7 +120,7 @@
 
 .servicii-content-item-subtitlu{
     text-transform: uppercase;
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: var(--primary-color);
     margin-bottom: .5em;
     font-weight: 600;
