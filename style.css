@@ -221,6 +221,7 @@ header.sticky .navbar-expand-lg .navbar-nav .nav-link.contact-link{
     }
 }
 
+
 header .navbar-brand img{
     width: 100px;
 }
@@ -573,88 +574,69 @@ footer{
     background-color: var(--secondary-color);
 }
 
-.row.footer-rand{
-    align-items: center;
-}
-
-.footer-contact-list,
-.utile-list{
+.f-contact-info-lista,
+.f-link-uri-utile ul{
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.footer-utile-item{
-    line-height: 1.6;
-    position: relative;
-    z-index: 1;
+.f-contact-info-item,
+.f-link-uri-utile-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: .5em;
 }
 
-.footer-utile-item .footer-utile-link{
-    text-decoration: none;
-    transition: all .5s;
-    position: relative;
-    z-index: 1;
-    color: var(--text-color);
-    font-weight: 500;
-    font-size: 1.2em;
-    display: inline-block;
-    transition: all .5s;
+.f-link-uri-utile-item{
+    line-height: 2.8;
 }
 
-.footer-utile-item:hover .footer-utile-link{
-    transform: translateX(1em)
+.f-contact-info-icon,
+.f-link-uri-utile-icon{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
-.footer-utile-item .footer-utile-icon i{
-    transform: scale(0);
-    transition: all .5s;
-    position: absolute;
-    top: 50%;
-    margin-top: -8px;
-    z-index: 3;
-    left: 0;
+.f-contact-info-text-wrapper{
+    margin-left: 1em;
 }
 
-.footer-utile-item:hover .footer-utile-icon i{
-    transform: scale(1);
-}
-
-
-.footer-utile-link:hover{
-    color: var(--text-color);
-
-}
-
-.footer-contact-item{
+.f-contact-info-titlu{
+    display: block;
+    font-weight: 600;
     font-size: 1.2em;
 }
 
-.footer-contact-link{
+.f-contact-info-icon i{
+    font-size: 1.2em;
+}
+
+.contact-info-link,
+.f-link-uri-utile-link{
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--text-color);
     transition: all .5s;
-    font-weight: 600
 }
 
-.footer-contact-link:hover{
-    text-decoration: none;
-    color: var(--primary-color);
+.contact-info-link:hover,
+.f-link-uri-utile-link:hover{
+    color: var(--text-color);
 }
 
-.contact-item-text{
-    font-weight: 500;
+.f-link-uri-utile-link{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-left: 1em;
 }
 
-.contact-item-fb a img{
-    transition: all .5s
-}
-
-
-.contact-item-fb a img:hover{
-    filter: grayscale(100%)
-}
-
+/* .f-contact-info-text{
+    /* font-size: 1.2em; */
 /* page-img-wrapper */
 .page-img-wrapper{
     position: relative;
@@ -698,7 +680,8 @@ footer{
 
 
 
-.overlay-page-img{
+.overlay-page-img,
+.overlay-serviciu-item-img{
     position: absolute;
     top: 0;
     left: 0;
@@ -711,7 +694,8 @@ footer{
     justify-content: center;
 }
 
-.overlay-page-img-titlu{
+.overlay-page-img-titlu,
+.overlay-serviciu-item-titlu{
     font-size: 2.5em;
     color: #fff;
     font-weight: 600;

@@ -13,7 +13,7 @@
 				</div>
 			</div>
 			<div class="row m-servicii-content-rand">
-				<div class="col-lg-3 col-md-6 col-6 m-servicii-item-wrapper">
+				<div class="col-xl-3 col-lg-6 col-md-6 col-6 m-servicii-item-wrapper">
 					<div class="m-servicii-item card">
 						<div class="m-servicii-item-img-wrapper">
 							<a href="" class="m-servicii-img-link">
@@ -37,7 +37,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 col-6 m-servicii-item-wrapper">
+				<div class="col-xl-3 col-lg-6 col-md-6 col-6 m-servicii-item-wrapper">
 					<div class="m-servicii-item card">
 						<div class="m-servicii-item-img-wrapper">
 							<a href="" class="m-servicii-img-link">
@@ -61,7 +61,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 col-6 m-servicii-item-wrapper">
+				<div class="col-xl-3 col-lg-6 col-md-6 col-6 m-servicii-item-wrapper">
 					<div class="m-servicii-item card">
 						<div class="m-servicii-item-img-wrapper">
 							<a href="" class="m-servicii-img-link">
@@ -85,7 +85,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 col-6 m-servicii-item-wrapper">
+				<div class="col-xl-3 col-lg-6 col-md-6 col-6 m-servicii-item-wrapper">
 					<div class="m-servicii-item card">
 						<div class="m-servicii-item-img-wrapper">
 							<a href="" class="m-servicii-img-link">

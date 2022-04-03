@@ -37,11 +37,11 @@
 													<a class="nav-link" href="./servicii">Servicii</a>
 												</li> -->
 												<li class="nav-item dropdown">
-													<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													<a class="nav-link dropdown-toggle" href="./servicii" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 														Servicii
 													</a>
 													<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-													<a class="dropdown-item" href="./includes/reflexoterapie">
+													<a class="dropdown-item" href="./reflexoterapie">
 														<span class="dropdown-item-icon">
 															<i class="fa-solid fa-circle-dot"></i>
 														</span>	
@@ -49,7 +49,7 @@
 															Reflexoterapie
 														</span>
 													</a>
-													<a class="dropdown-item" href="./includes/drenaj">
+													<a class="dropdown-item" href="./drenaj">
 														<span class="dropdown-item-icon">
 															<i class="fa-solid fa-circle-dot"></i>
 														</span>
@@ -57,7 +57,7 @@
 															Drenaj Limfatic
 														</span>
 													</a>
-													<a class="dropdown-item" href="./includes/masaj">
+													<a class="dropdown-item" href="./masaj">
 														<span class="dropdown-item-icon">
 															<i class="fa-solid fa-circle-dot"></i>
 														</span>
@@ -65,7 +65,7 @@
 															Masaj
 														</span>
 													</a>
-													<a class="dropdown-item" href="./includes/terapia_bowen">
+													<a class="dropdown-item" href="./terapia_bowen">
 														<span class="dropdown-item-icon">
 															<i class="fa-solid fa-circle-dot"></i>
 														</span>

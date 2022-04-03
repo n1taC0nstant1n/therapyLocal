@@ -6,7 +6,8 @@
 
 <?php
 	// pathinfo give info about given file and returns it into an associative array:
-$info = ucfirst(pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME));
+$info = pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
+$info = ucwords(str_replace('_', ' ', $info));
 
 if($info === 'Index' || $info === '/'){
 	$info = 'Terapie Bowen';
@@ -29,7 +30,7 @@ if($info === 'Index' || $info === '/'){
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
 	<link rel="stylesheet" href="./galerie.css">
 	<?php } ?>
-	<?php if($info == 'Servicii'){ ?>
+	<?php if($info == 'Servicii' || $info == 'Reflexoterapie' || $info == 'Drenaj' || $info == 'Masaj' || $info == 'Terapia Bowen'){ ?>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>	
 	<link rel="stylesheet" href="./servicii.css">
 	<?php } ?>

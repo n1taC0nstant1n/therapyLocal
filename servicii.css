@@ -178,3 +178,21 @@
 .contraindicatii li i{
     color: #b94141;
 }
+
+/* serviciu */
+.serviciu-item-image{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.serviciu-item-image{
+    content: '';
+    display: block;
+    padding-bottom: 36%;
+}
+
+
+
