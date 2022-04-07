@@ -3,6 +3,44 @@
 	<footer>
 		<div class="container">
 			<div class="row rand-footer">
+				<div class="col-lg-6 col-md-5 col-12 f-link-uri-utile-wrapper">
+					<div class="f-link-uri-utile">
+						<ul>
+							<li class="f-link-uri-utile-item">
+								<span class="f-link-uri-utile-icon">
+									<i class="fa-solid fa-arrow-right"></i>
+								</span>
+								<a href="./politica_confidentialitate" class="f-link-uri-utile-link">
+									Politica de confidentialitate
+								</a>
+							</li>
+							<li class="f-link-uri-utile-item">
+								<span class="f-link-uri-utile-icon">
+									<i class="fa-solid fa-arrow-right"></i>
+								</span>
+								<a href="./drepturi_autor" class="f-link-uri-utile-link">
+									Drepturi de autor
+								</a>
+							</li>
+							<li class="f-link-uri-utile-item">
+								<span class="f-link-uri-utile-icon">
+									<i class="fa-solid fa-arrow-right"></i>
+								</span>
+								<a href="./copyright" class="f-link-uri-utile-link">
+									Copyright
+								</a>
+							</li>
+							<li class="f-link-uri-utile-item">
+								<span class="f-link-uri-utile-icon">
+									<i class="fa-solid fa-arrow-right"></i>
+								</span>
+								<a href="https://anpc.ro/" class="f-link-uri-utile-link" target="_blank">
+									ANPC
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 				<div class="col-lg-6 col-md-7 col-12 f-contact-info-wrapper">
 					<div class="f-contact-info">
 						<div class="f-contact-info-lista">
@@ -63,44 +101,6 @@
 								</span>
 							</li>
 						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-5 col-12 f-link-uri-utile-wrapper">
-					<div class="f-link-uri-utile">
-						<ul>
-							<li class="f-link-uri-utile-item">
-								<span class="f-link-uri-utile-icon">
-									<i class="fa-solid fa-arrow-right"></i>
-								</span>
-								<a href="./politica_confidentialitate" class="f-link-uri-utile-link">
-									Politica de confidentialitate
-								</a>
-							</li>
-							<li class="f-link-uri-utile-item">
-								<span class="f-link-uri-utile-icon">
-									<i class="fa-solid fa-arrow-right"></i>
-								</span>
-								<a href="./drepturi_autor" class="f-link-uri-utile-link">
-									Drepturi de autor
-								</a>
-							</li>
-							<li class="f-link-uri-utile-item">
-								<span class="f-link-uri-utile-icon">
-									<i class="fa-solid fa-arrow-right"></i>
-								</span>
-								<a href="./copyright" class="f-link-uri-utile-link">
-									Copyright
-								</a>
-							</li>
-							<li class="f-link-uri-utile-item">
-								<span class="f-link-uri-utile-icon">
-									<i class="fa-solid fa-arrow-right"></i>
-								</span>
-								<a href="https://anpc.ro/" class="f-link-uri-utile-link" target="_blank">
-									ANPC
-								</a>
-							</li>
-						</ul>
 					</div>
 				</div>
 			</div>

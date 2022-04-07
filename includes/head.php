@@ -30,9 +30,10 @@ if($info === 'Index' || $info === '/'){
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
 	<link rel="stylesheet" href="./galerie.css">
 	<?php } ?>
-	<?php if($info == 'Servicii' || $info == 'Reflexoterapie' || $info == 'Drenaj' || $info == 'Masaj' || $info == 'Terapia Bowen'){ ?>
+	<?php if($info == 'Servicii' || $info == 'Reflexoterapie' || $info == 'Drenaj' || $info == 'Masaj' || $info == 'Terapia Bowen'|| $info == 'Servicii V2'){ ?>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>	
 	<link rel="stylesheet" href="./servicii.css">
+	<link rel="stylesheet" href="./servicii_v2.css">
 	<?php } ?>
 	<?php if($info == 'Contact'){ ?>
 	<link rel="stylesheet" href="./contact.css">
