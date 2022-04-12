@@ -8,7 +8,7 @@ $title = ucwords( $info['filename'] );
 <?php include('./includes/head.php'); ?>
 <?php include('./includes/header.php'); ?>
 <?php include('./includes/slider.php'); ?> 
-<?php include('./includes/modul_servicii.php'); ?> 
+<?php include('./includes/modul_servicii_v2.php'); ?> 
 <?php include('./includes/modul_bowen.php'); ?> 
 <?php include('./includes/footer.php'); ?>
 

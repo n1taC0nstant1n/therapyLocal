@@ -5,15 +5,12 @@
         <div class="container despre-content-wrapper">
             <div class="row rand-despre-content">
                 <div class="col-lg-4 col-md-12 col-12 despre-content-img-wrapper">
-                    <div class="despre-content-img-big">
-                        <div class="despre-content-img">
-							<div class="overlay-despre-content-img">
-								<a href="https://www.facebook.com/Terapeut-Bowen-Lucretia-Bratulescu-101087418155185" target='_blank' class="overlay-despre-content-img-link">
-									<i class="fa-brands fa-facebook-f"></i>
-								</a>
-							</div>
-						</div>
+                    <div class="despre-content-img">
+                        <div class="despre-content-image-wrapper">
+                            <div class="despre-content-image"></div>
+                        </div>
                     </div>
+                    
                 </div>
                 <div class="col-lg-8 col-md-12 col-12 despre-content-wrapper">
                     <div class="despre-content">

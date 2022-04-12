@@ -8,9 +8,9 @@
                         <div class="page-img-content">
                             <div class="page-img galerie">
                                 <div class="overlay-page-img">
-                                    <div class="overlay-page-img-titlu">
-                                        Galerie
-                                    </div>
+                                    <h1 class="overlay-page-img-titlu">
+                                        <?php echo $info ; ?>
+                                    </h1>
                                 </div>
                             </div>
                         </div>

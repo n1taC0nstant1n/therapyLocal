@@ -38,6 +38,7 @@ if($info === 'Index' || $info === '/'){
 	<?php if($info == 'Contact'){ ?>
 	<link rel="stylesheet" href="./contact.css">
 	<?php } ?>
+	<link rel="stylesheet" href="servicii_v2.css">
 	<link rel="stylesheet" href="responsive.css">
 	<link href="assets/fontawesome/all.min.css" rel="stylesheet">
 

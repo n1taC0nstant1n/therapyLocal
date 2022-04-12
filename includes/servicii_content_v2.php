@@ -1,5 +1,5 @@
 <section id="serv-content">
-    <div class="container-fluid serv-content">
+    <div class="container serv-content">
         <div class="row rand-serv-content">
             <div class="col-lg-3 col-md-6 col-12 serv-content-item-wrapper">
                 <div class="serv-content-item">

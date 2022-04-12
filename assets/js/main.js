@@ -38,6 +38,28 @@ $(document).ready(function(){
         });
     }
 
+    if ($('#back-to-top').length) {
+        var scrollTrigger = 100, // px
+        backToTop = function () {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > scrollTrigger) {
+                $('#back-to-top').addClass('show-bttp');
+            } else {
+                $('#back-to-top').removeClass('show-bttp');
+            }
+        };
+        backToTop();
+        $(window).on('scroll', function () {
+            backToTop();
+        });
+        $('#back-to-top').on('click', function (e) {
+            e.preventDefault();
+            $('html,body').animate({
+                scrollTop: 0
+            }, 700);
+        });
+    }
+
 
     });
 
@@ -59,13 +81,6 @@ $(document).ready(function(){
     $('nav li a').filter(function(){
         return this.href === location.href;
       }).addClass('active');
-    
-    if(this.href === 'despre'){
-        var despreCss = document.createElement('link');
-        despreCss.rel = 'stylesheet';
-        despreCss.href = './assets/css/despre.css';
-        document.head.appendChild(despreCss);
-    }
 
 
 

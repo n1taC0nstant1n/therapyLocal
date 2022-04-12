@@ -43,7 +43,7 @@
 													<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 													<a class="dropdown-item" href="./reflexoterapie">
 														<span class="dropdown-item-icon">
-															<i class="fa-solid fa-circle-dot"></i>
+															<i class="fa-solid fa-arrow-right-long"></i>
 														</span>	
 														<span class="dropdown-item-text">
 															Reflexoterapie
@@ -51,7 +51,7 @@
 													</a>
 													<a class="dropdown-item" href="./drenaj">
 														<span class="dropdown-item-icon">
-															<i class="fa-solid fa-circle-dot"></i>
+															<i class="fa-solid fa-arrow-right-long"></i>
 														</span>
 														<span class="dropdown-item-text">
 															Drenaj Limfatic
@@ -59,7 +59,7 @@
 													</a>
 													<a class="dropdown-item" href="./masaj">
 														<span class="dropdown-item-icon">
-															<i class="fa-solid fa-circle-dot"></i>
+															<i class="fa-solid fa-arrow-right-long"></i>
 														</span>
 														<span class="dropdown-item-text">
 															Masaj
@@ -67,7 +67,7 @@
 													</a>
 													<a class="dropdown-item" href="./terapia_bowen">
 														<span class="dropdown-item-icon">
-															<i class="fa-solid fa-circle-dot"></i>
+															<i class="fa-solid fa-arrow-right-long"></i>
 														</span>
 														<span class="dropdown-item-text">
 															Terapia Bowen

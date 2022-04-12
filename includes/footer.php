@@ -107,6 +107,8 @@
 		</div>
 	</footer>
 	<!-- end of footer -->
+	<div id="back-to-top"><i class="fa-solid fa-arrow-up"></i></div>
+
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
      <script>

@@ -7,9 +7,9 @@
                         <div class="page-img-content">
                             <div class="page-img despre">
                                 <div class="overlay-page-img">
-                                    <div class="overlay-page-img-titlu">
-                                        Despre
-                                    </div>
+                                    <h1 class="overlay-page-img-titlu">
+                                        <?php echo $info ; ?>
+                                    </h1>
                                 </div>
                             </div>
                         </div>
