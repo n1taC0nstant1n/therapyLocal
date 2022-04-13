@@ -2,132 +2,127 @@
     padding: 50px 0;
 }
 
-.galerie-item-wrapper{
-    margin-bottom: 30px 
-}
-
-.galerie-item-img-wrapper{
-    border: 5px solid #c6edeb;
-    overflow: hidden;
-
-}
-
-.galerie-item{
+.galerie-item-image-big-wrapper{
     position: relative;
     z-index: 1;
-    transition: all .5s;
 }
 
-.galerie-item:hover{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
-    /* box-shadow: rgba(18,163,163, 0.25) 0px 50px 100px -20px, rgba(18,163,163, 0.3) 0px 30px 60px -30px; */
+.galerie-item-image-big-wrapper::after{
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 167, 167, 0.5);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    z-index: -1;
 }
 
+.galerie-item-image-wrapper{
+    overflow: hidden;
+    border-radius: 50%
 
-.galerie-item .galerie-item-img{
-    background-position: center;
+}
+
+.galerie-item-wrapper{
+    margin-bottom: 3em;
+}
+
+.galerie-item .galerie-item-image{
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     position: relative;
-    z-index: 1;
     transition: all .5s;
+    z-index: 1;
 }
 
-.galerie-item:hover .galerie-item-img{
+.galerie-item-image::before{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.galerie-item:hover .galerie-item-image{
     transform: scale(1.2);
 }
 
-.galerie-item-img::before{
-    padding-bottom: 100%;
-    content: '';
-    display: block;
-}
-
-.galerie1{
+.galerie-item1{
     background-image: url('./imagini/images/a2.jpg');
 }
 
-.galerie2{
+.galerie-item2{
     background-image: url('./imagini/images/a3.jpg');
 }
 
-.galerie3{
+.galerie-item3{
     background-image: url('./imagini/images/a4.jpg');
 }
 
-.galerie4{
+.galerie-item4{
     background-image: url('./imagini/images/a5.jpg');
 }
 
-.galerie5{
+.galerie-item5{
     background-image: url('./imagini/images/a6.jpg');
 }
 
-.galerie6{
+.galerie-item6{
     background-image: url('./imagini/images/a7.jpg');
 }
 
-.galerie7{
+.galerie-item7{
     background-image: url('./imagini/images/a8.jpg');
 }
 
-.galerie8{
+.galerie-item8{
     background-image: url('./imagini/images/a9.jpg');
 }
 
-.galerie9{
-    background-image: url('./imagini/images/a10.jpg');
-}
-
-.galerie-item .overlay-galerie-item-img{
+.galerie-item .overlay-galerie-item{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    bottom: 50%;
-    right: 50%;
-    content: '';
-    z-index: 2;
-    background: rgba(0,0,0, .5);
-    transition: all .5s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    
-}
-.galerie-item:hover .overlay-galerie-item-img{
     top: 0;
     left: 0;
-    bottom: 0;
-    right: 0;
-}
-
-.overlay-galerie-item-img-link{
-    display: block;box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    text-decoration: none;
-}
-
-.galerie-item .overlay-galerie-item-img-link i{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgba(0,0,0, .5);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    visibility: hidden;
+    transition: all .5s;
+}
+
+.galerie-item:hover .overlay-galerie-item{
+    visibility: visible;
+}
+
+
+
+.galerie-item .overlay-galerie-item-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
     background: #fff;
-    color: #414243;
-    transform: scale(0);
+    font-size: 1.2em;
+    color: var(--text-color);
+    border-radius: 50%;
+    text-decoration: none;
+    transform: translateY(-500%);
     transition: all .5s;
 }
 
-.galerie-item:hover .overlay-galerie-item-img-link i{
-    transform: scale(1);
-    transition: all .5s;
+.galerie-item:hover .overlay-galerie-item-link{
+    transform: translateY(0);
 }
 
-.galerie-item .overlay-galerie-item-img-link i:hover{
-    background: #414243;
+.overlay-galerie-item-link:hover{
     color: #fff;
+    background: var(--primary-color);
 }

@@ -7,7 +7,13 @@
                 <div class="col-lg-4 col-md-12 col-12 despre-content-img-wrapper">
                     <div class="despre-content-img">
                         <div class="despre-content-image-wrapper">
-                            <div class="despre-content-image"></div>
+                            <div class="despre-content-image">
+                                <div class="overlay-despre-content-image">
+                                    <a href="" class="overlay-despre-content-image-link">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
